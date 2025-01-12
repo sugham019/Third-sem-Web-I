@@ -1,0 +1,74 @@
+body{
+    font-size: 20px;
+    background-color:azure;
+}
+
+#contact-description {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#contact-description p {
+    margin: 0;
+}
+
+#contact-us {
+    text-align: center;
+    background-color: white;
+    margin: 20px auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#contact-us h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#contact-us img {
+    margin: 10px 0;
+}
+
+form {
+    text-align: left;
+    margin-top: 15px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#submit-button{
+    background-color: rgb(235, 90, 27);
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 250px;
+}
+
+#submit-button:hover{
+    background-color: rgb(206, 62, 0);
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 580px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form textarea {
+    height: 100px;
+}

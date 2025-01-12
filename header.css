@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    background-color: rgb(235, 90, 27);
+    border: 1px solid black;
+}
+
+nav ul{
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin: 20px;
+    background-color: azure;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        width: 80%;
+        text-align: center;
+    }
+}
