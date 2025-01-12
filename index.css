@@ -15,7 +15,7 @@ body{
     height: 40px;
 
     margin-top: 40px;
-    margin-left: 450px;
+    margin-left: 320px;
     margin-bottom: 20px;
 }
 
@@ -35,11 +35,10 @@ body{
 
 .item{
     font-size: 20px;
-    margin: 120px;
+    margin: 100px;
 }
 
 #items-catalog-1, #items-catalog-2, #items-catalog-3{
-    margin-left: 120px;
     display: flex;
 }
 

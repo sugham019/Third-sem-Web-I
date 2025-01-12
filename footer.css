@@ -18,11 +18,11 @@ footer p{
 
 footer img{
     margin-top: 100px;
-    margin-left: 470px;
+    margin-left: 320px;
 }
 
 footer iframe{
-    margin-left: 520px;
+    margin-left: 360px;
 }
 
 @media screen and (max-width: 600px) {
